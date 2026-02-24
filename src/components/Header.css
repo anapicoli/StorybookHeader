@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbaed6;
+  padding: 16px;
+  color: #7e1b4e;
+}
+
+.header-title {
+  margin: 0;
+}
+
+.header-user button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #7e1b4e;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.header-user button:hover {
+  background-color: #56046a;
+}
